@@ -1,13 +1,13 @@
 
 RECIPES = {
+    'marinara': {
+        'ingredients': {'garlic': 2, 'basil': 3},
+        'price': 9,
+    },  
     'margherita': {
         'ingredients': {'mozzarella': 2, 'oregano': 4},
         'price': 10,
         'sauce': 'tomato'
-    },
-    'marinara': {
-        'ingredients': {'garlic': 2, 'basil': 3},
-        'price': 9,
     },
     'quattro fromagi': {
         'ingredients': {'mozzarella': 2, 'parmesan': 2, 'gorgonzola': 2, 'cheddar': 2, 'oregano': 3},
@@ -46,5 +46,4 @@ RECIPES = {
         'ingredients': {'mozzarella': 3, 'pepper': 4},
         'price': 11,
     },
-    
 }
